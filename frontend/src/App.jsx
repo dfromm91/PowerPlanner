@@ -69,7 +69,7 @@ function App() {
       if (token) {
         try {
           const response = await axios.post(
-            "https://workoutappbackend-oyyg.onrender.com/users/validate-token",
+            `${import.meta.env.VITE_BACKEND_API}/users/validate-token`,
             {},
             {
               headers: {
