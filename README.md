@@ -28,7 +28,7 @@ Ensure you have the following installed on your system:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/dfromm91/PowerPlanner.git
    cd <repository-folder>
    ```
 
