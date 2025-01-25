@@ -1,6 +1,6 @@
 # PowerPlanner Project
 
-PowerPlanner is a project designed to make logging your workouts more efficient and seamless. With this application, you can manage your workout plans, track your progress, and stay organized.
+PowerPlanner is a project designed to make logging your workouts more efficient and seamless. With this application, you can manage your workout plans, track your progress, and visualize your progress.
 
 ## Features
 - Log and manage workouts with a user-friendly interface.
@@ -11,6 +11,7 @@ PowerPlanner is a project designed to make logging your workouts more efficient 
 - Node.js and Express backend for robust API support.
 
 ## Tech Stack
+- **Visualization**: Recharts for interactive charts
 - **Backend**: Node.js, Express, Nodemailer
 - **Frontend**: React, Vite
 - **Database**: SQLite (file-based, preconfigured)
