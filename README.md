@@ -29,7 +29,7 @@ Ensure you have the following installed on your system:
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/dfromm91/PowerPlanner.git
-   cd <repository-folder>
+   cd PowerPlanner
    ```
 
 2. Navigate to the `frontend` folder and install dependencies:
