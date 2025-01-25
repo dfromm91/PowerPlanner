@@ -72,7 +72,9 @@ const Stats = ({ userId }) => {
 
   const fetchExercises = async () => {
     try {
-      const response = await axios.get(`${VITE_BACKEND_API}/exercises`);
+      const response = await axios.get(
+        `${import.meta.env.VITE_BACKEND_API}/exercises`
+      );
       setExercises(response.data || []);
     } catch (error) {
       console.error("Error fetching exercises:", error);
